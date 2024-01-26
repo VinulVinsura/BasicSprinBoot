@@ -11,7 +11,7 @@ import lombok.*;
 @ToString
 @Table(name = "Employee")
 
-public class employee {
+public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int empId;

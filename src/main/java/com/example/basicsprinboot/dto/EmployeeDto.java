@@ -8,7 +8,8 @@ import lombok.*;
 @Setter
 @ToString
 
-public class employeeDto {
+public class EmployeeDto {
+
     private int empId;
     private String empName;
     private String empAddress;
